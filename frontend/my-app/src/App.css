@@ -1,0 +1,16 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
+.upload-label svg {
+  width: 48px; /* Equivalent to w-12 */
+  height: 48px; /* Equivalent to h-12 */
+  color: #4299e1; /* Equivalent to text-blue-400 */
+  margin-bottom: 1rem; /* Equivalent to mb-4 */
+}
